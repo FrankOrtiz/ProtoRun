@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B26A690D-9034-7699-0616-0EB92BAB48E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\CannonBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\CheckPoint.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\CircularMovingObjects.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\ComboBox.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\DemoGUI.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\DemoPirateShip.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\FollowController.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\GravitySwitcher.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\KillsOnTouch.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\LookAt2D.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\PatrolBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\PixelPerfectCameraCtrl.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\PlanetBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\RedMushroomBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\RocketBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\RotateTowards.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\RotationBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\SinusoidalMovinObjects.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\SnailBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Scripts\SpringBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Tutorials\Tutorial01\Scripts\CollectThemAllCore.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Extra\Tutorials\Tutorial01\Scripts\CollectibleBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartColliders\SmartCollider2D.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartColliders\SmartColliderCore.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartColliders\SmartPlatformCollider.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartColliders\SmartRectCollider2D.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartControllers\PlatformCharacterAnimator.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartControllers\PlatformCharacterController.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartControllers\PlatformCharacterInput.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartControllers\PlatformCharacterPhysics.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\SmartControllers\SmartPlatformController.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\Utils\DebugEx.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\Utils\EditorCompatibilityUtils.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\Utils\EditorUtils.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\Utils\GizmoUtils.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\Utils\HandlesEx.cs" />
+     <Compile Include="Assets\CreativeSpore\SmartColliders2D\Scripts\Utils\VPad.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperPlatformerEditor\Extra\Kenneys - Platformer\CollectThemAllInTimeCore.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Importers\Pyxel Edit\Scripts\JSONObject.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Importers\Pyxel Edit\Scripts\PyxelEdit Component\PyxelEdit.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Importers\Pyxel Edit\Scripts\PyxelEdit Data\PyxelEditTilemap.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Tileset - Samples\Kenneys - Rogue Like\MapPathFinding\MapPathFinding.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Tileset - Samples\Kenneys - Rogue Like\MapPathFinding\PathFinding.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Tileset - Samples\Kenneys - Rogue Like\MapPathFinding\PathfindingBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Tileset - Samples\Kenneys - Rogue Like\RogueLikeMapGenerator.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Data\ParameterContainer.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\A2X2Brush.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\AnimBrush.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\BrushBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\BrushFortySeven.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\BrushUtil.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\CarpetBrush.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\IBrush.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\RandomBrush.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\RoadBrush.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Brush\TilesetBrush.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\EditorGlobalSettings.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\STETilemap.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\SortingLayerAttribute.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\TileObjMesh.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\TileObjectBehaviour.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\TilemapChunk.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\TilemapChunk_Collider.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\TilemapChunk_Renderer.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\TilemapChunk_TileObjFactory.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\TilemapGroup.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Tilemap\Tileset.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Utils\EditorCompatibilityUtils.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Utils\EditorUtils.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Utils\GizmosEx.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Utils\HandlesEx.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Utils\TilemapDrawingUtils.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Utils\TilemapUtils.cs" />
+     <Compile Include="Assets\CreativeSpore\SuperTilemapEditor\Scripts\Utils\TilemapVertexPaintUtils.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <None Include="Assets\CreativeSpore\SuperPlatformerEditor\Extra\Kenneys - Platformer\Credits.txt" />
+     <None Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Tileset - Samples\Tiled - Tmx Import\license.txt" />
+     <None Include="Assets\CreativeSpore\SmartColliders2D\Extra\Tutorials\Tutorial01\Gfx\Readme.txt" />
+     <None Include="Assets\CreativeSpore\SuperTilemapEditor\changelog.txt" />
+     <None Include="Assets\CreativeSpore\SuperTilemapEditor\Extra\Importers\Pyxel Edit\Documentation\PyxelEditManual.txt" />
+     <None Include="Assets\CreativeSpore\SmartColliders2D\Extra\Readme.txt" />
+     <None Include="Assets\CreativeSpore\SmartColliders2D\changelog.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
